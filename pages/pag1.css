@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(51,153,204);
+}
+
+.all {
+    position: relative;
+}
+
+.all > img{
+    width: 1500px;
+    left: 50%;
+    transform: translate(-50%, 8%);
+    position: absolute;
+    z-index: 0;
+}
+
+/*------------------------ HEADER ------------------------*/
+
+#logo {
+    position: relative;
+    width: 90px;
+    margin-left: 380px;
+    top: 90px;
+}
+
+#info-header {
+    position: relative;
+    z-index: 1;
+}
+
+#login {
+    position: relative;
+    width: 40px;
+    margin-left: 855px;
+    top: 70px;
+    cursor: pointer;    
+    transition: transform 0.2s;
+}
+
+#login:hover {
+    transform: translateY(-5px);
+}
+
+#buy {
+    position: relative;
+    width: 40px;
+    margin-left: 30px;
+    top: 71px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#buy:hover {
+    transform: translateY(-5px);
+}
+
+#list {
+    position: relative;
+
+    width: 40px;
+    margin-left: 55px;
+    top: 71px;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.911);
+
+    transition: transform 0.2s;
+}
+
+#list:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.911);
+}
+
+/*------------------------ TEXTOS ------------------------*/
+
+#txts {
+    position: relative;
+    z-index: 1;   
+}
+
+#bigger-aquarium {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    margin-top: 273px;
+    margin-left: 380px;
+    font-size: 50px;
+    text-shadow: 4px 5px 3px rgba(26, 26, 26, 0.753);
+}
+
+#discount {
+    color: white;
+    font-size: 22px;
+    margin-left: 350px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
+    
+}
+
+#lorem-ipsum {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+    margin-top: 20px;
+    margin-left: 380px;
+}
+
+/*------------------------ BOTÃO ------------------------*/
+
+#tickets {
+    margin-left: 380px;
+    margin-top: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 15px;
+    width: 220px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.692);
+    cursor: pointer;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#tickets:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#about-us {
+    margin-left: 10px;
+    margin-top: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 15px;
+    width: 220px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.692);
+
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#about-us:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*------------------------ FOOTER ------------------------*/
+
+footer {
+    z-index: 1;
+    position: relative;
+}
+
+#left {
+    cursor: pointer;
+    margin-left: 1500px;
+    margin-top: 169px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    font-size: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#left:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#right {
+    cursor: pointer;
+    margin-left: 20px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    font-size: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#right:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
